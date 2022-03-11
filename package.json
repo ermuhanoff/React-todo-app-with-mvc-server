@@ -15,15 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.epam.com/vladimir_ermukhanov/web2021_3_vladimir_ermukhanov.git"
+    "url": "https://github.com/woksel/React-todo-app-with-mvc-server.git"
   },
   "keywords": [
-    "EPAM",
     "react",
     "redux",
     "express",
     "mongoDB"
   ],
-  "author": "EPAM Training Center Team",
   "license": "ISC"
 }
