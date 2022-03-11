@@ -1,0 +1,29 @@
+{
+  "author": "Vladimir Ermukhanov <ermukhanoff@gmail.com>",
+  "name": "React todo app with mvc server",
+  "version": "1.0.0",
+  "description": "It is an application for managing tasks and nested categories. Including client and server parts.",
+  "main": "server/index.js",
+  "scripts": {
+    "client": "cd ./client && yarn run start",
+    "server": "cd ./server && yarn run start:dev",
+    "install_client": "cd ./client && yarn install",
+    "install_server": "cd ./server && yarn install",
+    "build_client": "cd ./client && yarn run build",
+    "build": "yarn run install_client && yarn run install_client && yarn run build_client",
+    "start": "cd ./server && yarn run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.epam.com/vladimir_ermukhanov/web2021_3_vladimir_ermukhanov.git"
+  },
+  "keywords": [
+    "EPAM",
+    "react",
+    "redux",
+    "express",
+    "mongoDB"
+  ],
+  "author": "EPAM Training Center Team",
+  "license": "ISC"
+}
