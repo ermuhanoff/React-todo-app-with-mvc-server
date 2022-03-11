@@ -1,0 +1,25 @@
+.category-name {
+  display: flex;
+  align-items: center;
+
+  &-content:hover {
+    text-decoration: underline;
+  }
+
+  &-content:not(a)::after {
+    content: "ᐊ";
+    display: inline-block;
+    transition: transform 0.1s ease;
+    margin-left: 0.5rem;
+    font-size: 0.74rem;
+  }
+
+  &-content.show::after {
+    transform: rotateZ(-90deg)
+  }
+
+}
+
+.category-edit {
+  font-size: 0.65rem;
+}

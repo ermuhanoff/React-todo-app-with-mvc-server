@@ -1,0 +1,17 @@
+.alert-custom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99999;
+}
+
+.alert-messages-submessage {
+  font-size: 13px;
+}
+
+.alerts {
+  z-index: 99999;
+  max-width: 50%;
+  min-width: 35%;
+}

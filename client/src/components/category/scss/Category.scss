@@ -1,0 +1,17 @@
+.category {
+  min-width: max-content;
+
+  &-btn {
+    display: flex;
+    align-items: center;
+  }
+
+  &-collapse {
+    display: none;
+    margin-left: 1em;
+    
+    &.show {
+      display: block;
+    }
+  }
+}
