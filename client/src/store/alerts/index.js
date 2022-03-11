@@ -1,0 +1,1 @@
+export { alertsReducer } from './Reducer';
